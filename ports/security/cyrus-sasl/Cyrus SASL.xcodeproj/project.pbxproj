@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90AC992217400C7D009F075D /* sasl.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB5874126E55630057FEE9 /* sasl.h */; };
 		A05124421278DABD00DE46C4 /* digestmd5.c in Sources */ = {isa = PBXBuildFile; fileRef = A0FB59FE126E55630057FEE9 /* digestmd5.c */; };
 		A05124431278DABD00DE46C4 /* digestmd5_init.c in Sources */ = {isa = PBXBuildFile; fileRef = A0FB59FF126E55630057FEE9 /* digestmd5_init.c */; };
 		A05124441278DACD00DE46C4 /* login.c in Sources */ = {isa = PBXBuildFile; fileRef = A0FB5A06126E55630057FEE9 /* login.c */; };
@@ -1934,6 +1935,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AC992217400C7D009F075D /* sasl.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* sasl2_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1984,7 +1986,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Bindle Binaries";
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Cyrus SASL" */;
@@ -2139,11 +2141,16 @@
 					armv6,
 					armv7,
 				);
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"cyrus-sasl/sasldb",
@@ -2164,10 +2171,15 @@
 					armv6,
 					armv7,
 				);
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"cyrus-sasl/sasldb",
